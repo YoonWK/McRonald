@@ -19,8 +19,9 @@ Wamp64 > www > McRonalds
 	
 	-without creating another database named “db”
 
-![image](https://github.com/YoonWK/McRonald/assets/120373444/cd0957e3-f1e4-4a59-8bd3-6142bfbcc876)
-	- import db.sql (located  in McRonalds > WAD > db.sql)
+	![image](https://github.com/YoonWK/McRonald/assets/120373444/cd0957e3-f1e4-4a59-8bd3-6142bfbcc876)
+	
+ 	- import db.sql (located  in McRonalds > WAD > db.sql)
 
 
 Screenshots
