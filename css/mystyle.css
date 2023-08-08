@@ -1,0 +1,123 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;700&display=swap');
+* {
+	font-family: 'Segoe Print', sans-serif;
+}
+.navbar-brand {
+	font-family: 'Comic Sans MS', sans-serif;
+}
+body {
+	/* background: #eee5b6; */
+	  /* fallback for old browsers */
+	  background: #ffecd2;
+  
+	  /* Chrome 10-25, Safari 5.1-6 */
+	  background: -webkit-linear-gradient(to right, rgba(255,236,210,0.5), rgba(252,182,159,0.5));
+	
+	  /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+	  background: linear-gradient(to right, rgba(255,236,210,0.5), rgba(252,182,159,0.5))
+}
+
+section{
+	height: 100vh;
+	width: 100vw;
+}
+table {
+	border: 2px solid #000;
+	width: 100%;
+	border-collapse: collapse;
+}
+th, td ,tr{
+	border: 2px solid #000;
+	padding: 5px;
+	border-collapse: collapse;
+}
+.section-padding {
+	padding: 100px 0;
+}
+.section-main {
+	padding: 300px 0;
+}
+
+.navbar .getstarted {
+	color: #7a7474;
+	margin-left: 30px;
+	border-radius: 4px;
+	font-weight: 400;
+	color: #fff;
+	text-decoration: none;
+	padding: .5rem 1rem;
+	line-height: 2.3;
+}
+.navbar-nav a {
+	
+	font-size: 15px;
+	text-transform: uppercase;
+	font-weight: 500;
+}
+.navbar-light .navbar-brand {
+	color: #000;
+	font-size: 25px;
+	text-transform: uppercase;
+	font-weight: bold;
+	letter-spacing: 2px;
+}
+.navbar-light .navbar-brand:focus, .navbar-light .navbar-brand:hover {
+	color: #7a7474;
+}
+.navbar-light .navbar-nav .nav-link {
+	/* link colour */
+	color: #000;
+}
+.navbar-light .navbar-nav .nav-link:focus, .navbar-light .navbar-nav .nav-link:hover {
+	/* logo colour */
+	color: #7a7474;
+}
+.w-100 {
+	height: 100vh;
+}
+.navbar-toggler {
+	padding: 1px 5px;
+	font-size: 18px;
+	line-height: 0.3;
+	background: #fff;
+}
+
+.gradient-custom {
+    /* fallback for old browsers */
+    background: #5ee7df;
+  
+    /* Chrome 10-25, Safari 5.1-6 */
+    background: -webkit-linear-gradient(to right, rgba(94,231,223,0.5), rgba(180,144,202,0.5));
+  
+    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    background: linear-gradient(to right, rgba(94,231,223,0.5), rgba(180,144,202,0.5))
+  }
+	
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+	
+
+	.img-area img {
+		width: 100%;
+	}
+	.row {
+		width: 100%;
+		/* padding-left: 10%; */
+	}
+	.gradient-custom {
+		border-top-right-radius: .3rem;
+		border-bottom-right-radius: .3rem;
+		}
+	
+}
+@media only screen and (max-width: 767px) {
+	.navbar-nav {
+		text-align: center;
+	}
+	.about-text {
+		width: 150%;
+	}
+	.gradient-form {
+		height: 100vh ;
+	}
+	
+}
